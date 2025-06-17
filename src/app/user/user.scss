@@ -1,0 +1,92 @@
+
+.container{
+width: 80%;
+margin: 2rem auto;
+padding: 2rem;
+
+h1{
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+
+.search-input{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    margin:2rem auto;
+    input{
+        width: 100%;
+        border: none;
+        padding: 0.5rem 2rem;
+        background-color: #e7f1e2;
+        
+        border-radius: 10px;
+    }
+    button{
+        border: none;
+        padding: 1rem 2rem;
+        border-radius: 10px;
+        cursor: pointer;
+        margin-left: 1rem;
+    }
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+        
+        
+    .card{
+        width: 35%;
+        background-color: #ededed;
+        margin: 1rem auto;
+        border-radius: 20px;
+        padding: 1rem 0;
+        img{
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin: 1rem 0;
+        }
+        .admin{
+            background-color: #f8514e;
+            width: fit-content;
+            text-align: center;
+            margin: auto;
+            padding: 0.5rem 2rem;
+            border-radius: 20px;
+            margin-bottom: 1rem;
+            color: white;
+                        font-size: 25px
+
+        }
+        .moderate{
+        background-color: #fdd362;
+            width: fit-content;
+            text-align: center;
+            margin: auto;
+            padding: 0.5rem 2rem;
+            border-radius: 20px;
+            margin-bottom: 1rem;
+            color: white;
+                        font-size: 25px
+
+        }
+        .user{
+            background-color: #8cba75;
+            width: fit-content;
+            text-align: center;
+            margin: auto;
+            padding: 0.5rem 2rem;
+            border-radius: 20px;
+            margin-bottom: 1rem;
+            color: white;
+            font-size: 25px
+        }
+    }
+}
+}

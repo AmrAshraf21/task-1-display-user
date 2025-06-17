@@ -1,4 +1,4 @@
-users = [
+export const users = [
   {
     profilePicture: "https://api.dicebear.com/7.x/avataaars/svg?seed=alex",
     username: "alexsmith",

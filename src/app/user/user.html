@@ -1,0 +1,32 @@
+<section class="user-section">
+
+    <div class="container">
+        <h1>Users</h1>
+        <div class="search-input">
+            <input type="text" placeholder="enter email">
+            <button>Search</button>
+        </div>
+
+        <div class="cards">
+            @for(item of arrUsers; track item.phone){
+            <div class="card">
+                <img [src]="item.profilePicture" alt="alt">
+                <p [class]="item.role">{{item.role}}</p>
+                <p>{{item.username}}</p>
+                <p>{{item.email}}</p>
+                <p>{{item.phone}}</p>
+                <p>{{item.birthdate}}</p>
+            </div>
+            }
+
+
+
+        </div>
+
+    </div>
+
+
+
+
+
+</section>
